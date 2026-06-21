@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nivisha Travels</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f8fc;
+}
+
+header{
+    background:linear-gradient(90deg,#004aad,#00bfff);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+nav{
+    background:#003580;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:40px 20px;
+}
+
+.hero{
+    text-align:center;
+    background:white;
+}
+
+.hero h2{
+    color:#004aad;
+    margin-bottom:15px;
+}
+
+.btn{
+    background:#004aad;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#004aad;
+    margin-bottom:10px;
+}
+
+.hours{
+    background:#e8f1ff;
+    text-align:center;
+}
+
+.reviews{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.review-box{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact{
+    background:#004aad;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#002855;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Nivisha Travels</h1>
+    <p>Your Trusted Travel Partner</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#hours">Timings</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Book Your Journey With Ease</h2>
+    <p>Flight Tickets • Train Tickets • Holiday Packages</p>
+    <br>
+    <a href="#contact" class="btn">Book Now</a>
+</section>
+
+<section id="services">
+    <h2 style="text-align:center;color:#004aad;">Our Services</h2>
+    <br>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>✈ Flight Ticket Booking</h3>
+            <p>Domestic and international flight bookings at competitive prices.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚆 Train Ticket Booking</h3>
+            <p>Quick and secure railway ticket reservation assistance.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏖 Holiday Packages</h3>
+            <p>Customized tour packages for families, couples, and groups.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛂 Visa Assistance</h3>
+            <p>Guidance and support for visa applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏨 Hotel Booking</h3>
+            <p>Affordable hotel bookings worldwide.</p>
+        </div>
+
+        <div class="card">
+            <h3>📞 Travel Support</h3>
+            <p>Customer support for all travel-related queries.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="hours" class="hours">
+    <h2>Business Hours</h2>
+    <br>
+    <h3>Monday - Saturday</h3>
+    <p>Opening Time: 9:00 AM</p>
+    <p>Closing Time: 8:00 PM</p>
+    <br>
+    <h3>Sunday</h3>
+    <p>10:00 AM - 4:00 PM</p>
+</section>
+
+<section id="reviews">
+    <h2 style="text-align:center;color:#004aad;">Customer Reviews</h2>
+    <br>
+
+    <div class="reviews">
+
+        <div class="review-box">
+            ⭐⭐⭐⭐⭐
+            <p>"Excellent service and fast ticket booking."</p>
+            <strong>- Rahul Sharma</strong>
+        </div>
+
+        <div class="review-box">
+            ⭐⭐⭐⭐⭐
+            <p>"Very helpful and professional travel agent."</p>
+            <strong>- Priya Patel</strong>
+        </div>
+
+        <div class="review-box">
+            ⭐⭐⭐⭐⭐
+            <p>"Best prices for flight tickets. Highly recommended."</p>
+            <strong>- Amit Verma</strong>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <br>
+    <p>📍 Mumbai, Maharashtra, India</p>
+    <p>📞 +91 XXXXXXXXXX</p>
+    <p>📧 nivishatravels@gmail.com</p>
+    <br>
+    <h3>Send Booking Inquiry</h3>
+    <br>
+
+    <form>
+        <input type="text" placeholder="Your Name" required
+        style="padding:10px;width:250px;"><br><br>
+
+        <input type="email" placeholder="Your Email" required
+        style="padding:10px;width:250px;"><br><br>
+
+        <textarea placeholder="Travel Requirement"
+        style="padding:10px;width:250px;height:100px;"></textarea><br><br>
+
+        <button style="padding:12px 25px;background:white;color:#004aad;border:none;border-radius:5px;">
+        Submit
+        </button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Nivisha Travels. All Rights Reserved.</p>
+</footer>
+
+</body>
+  </html>
